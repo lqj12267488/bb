@@ -10,4 +10,5 @@ public interface LogDao {
     void add(SysLog log);
     //注释
     //222
+    //111
 }
