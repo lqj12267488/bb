@@ -9,5 +9,4 @@ public interface LogDao {
     @Insert("insert into sys_log values(com_sequence.nextval,#{visitTime},#{username},#{ip},#{method},#{executeTime},#{executeResult},#{executeMsg})")
     void add(SysLog log);
     //注释
-    //111
 }
